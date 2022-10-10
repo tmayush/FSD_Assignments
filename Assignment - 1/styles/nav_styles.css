@@ -1,0 +1,36 @@
+nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  background-color: hsl(0, 0%, 15%);
+  font-size: 2rem;
+}
+.company-logo,
+.nav-ul {
+  width: 100%;
+}
+.company-logo {
+  display: flex;
+  padding: 0 0 0 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  color: #f4f4f4;
+  pointer-events: none;
+  user-select: none;
+}
+.nav-ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  display: inline-block;
+  /* background-color: antiquewhite; */
+  color: #f4f4f4;
+  padding: 1rem 1.5rem;
+}
+.nav-link:hover {
+  background-color: hsl(0, 0%, 23%);
+  /* background: linear-gradient(#333, #999); */
+}

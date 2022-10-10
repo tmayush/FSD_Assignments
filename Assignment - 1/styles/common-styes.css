@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+:root {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  --primary-color: #333333;
+  --jumbotron-height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+}
+.btn {
+  padding: 1rem;
+  border-radius: 0.3rem;
+  border: 0;
+  outline: none;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  background-color: #ffffff;
+}
+.btn:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+em {
+  font-style: normal;
+}

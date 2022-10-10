@@ -1,0 +1,65 @@
+/* Jumbotron Styles */
+.jumbotron {
+  height: var(--jumbotron-height);
+  background-color: black;
+  color: hsl(0, 0%, 90%);
+  display: flex;
+  position: fixed;
+  z-index: -1;
+}
+.content,
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content {
+  flex: 50% 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem 0rem;
+  padding: 0 0 0 5rem;
+  overflow: hidden;
+}
+.tagline-heading {
+  font-size: 8rem;
+  background: linear-gradient(
+      135deg,
+      hsl(187, 45%, 60%) 15%,
+      hsl(21, 93%, 50%),
+      hsl(19, 17%, 46%),
+      hsl(187, 50%, 80%)
+    )
+    repeat scroll padding-box 0% 0%;
+  background-clip: unset;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tagline {
+  font-size: 2rem;
+}
+.company-emphasized {
+  font-weight: 800;
+}
+.img-container {
+  flex: 50% 0 0;
+  background-image: linear-gradient(90deg, hsl(0, 0%, 0%), transparent),
+    url("../assets/jumbo-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.clearfix {
+  height: var(--jumbotron-height);
+}
+@media screen and (max-width: 1200px) {
+  .jumbotron,
+  .clearfix {
+    height: 80vh;
+  }
+  .tagline-heading {
+    font-size: 5rem;
+  }
+  .tagline {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/css-reset.css" />
+    <link rel="stylesheet" href="./styles/common-styes.css" />
+    <link rel="stylesheet" href="./styles/nav_styles.css" />
+    <link rel="stylesheet" href="./styles/jumbotron-styles.css" />
+    <link rel="stylesheet" href="./styles/registration-form.css" />
+    <title>Havana</title>
+  </head>
+  <body>
+    <nav>
+      <div class="company-logo">
+        <h1>Havana</h1>
+      </div>
+      <ul class="nav-ul">
+        <li class="nav-list-item current-nav-list-item">
+          <a href="#" class="nav-link current-nav-link anchor">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#services" class="nav-link anchor">Services</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#register" class="nav-link anchor">Register</a>
+        </li>
+        <!-- <li class="nav-list-item">
+          <a href="#" class="nav-link anchor">Visit Us</a>
+        </li> -->
+      </ul>
+    </nav>
+    <section class="jumbotron">
+      <div class="content">
+        <h1 class="tagline-heading">Sense the Moment</h1>
+        <p class="tagline">
+          The breeze on your skin. The sea in the air. The sun spilling gold
+          across the sand. The faces and voices of the people you love, drawing
+          you into the comfort of their presence.
+        </p>
+        <p class="tagline">Breathe deeply. Live fully.</p>
+        <p class="tagline">
+          Welcome to <em class="company-emphasized">Havana</em>.
+        </p>
+      </div>
+      <div class="img-container"></div>
+    </section>
+    <div class="clearfix"></div>
+    <section id="services" class="services-section feature-section">
+      <h1 class="section-heading">Services</h1>
+      <div class="services-container">
+        <div class="service-card">
+          <img class="service-img" src="./assets/jumbotron-img.jpg" alt="" />
+          <div class="details">
+            <h3 class="service-heading">Events at Havana</h3>
+            <p class="service-description">
+              Take your events to new heights with Havana! Be inspired by our
+              array of spectacular locations and host an event you'll always
+              treasure.
+            </p>
+          </div>
+        </div>
+        <div class="service-card">
+          <img class="service-img" src="./assets/jumbotron-img.jpg" alt="" />
+          <div class="details">
+            <h3 class="service-heading">Food at Havana</h3>
+            <p class="service-description">
+              Create new connections and rekindle old bonds over our range of
+              diverse cuisines and enchanting destination dining experiences.
+            </p>
+          </div>
+        </div>
+        <div class="service-card">
+          <img class="service-img" src="./assets/jumbotron-img.jpg" alt="" />
+          <div class="details">
+            <h3 class="service-heading">Havana Spa</h3>
+            <p class="service-description">
+              Our award-winning spas emphasise the use of natural ingredients -
+              such as flowers and fruits - to leave you refreshed, rejuvenated
+              and ready to face the day.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter-section feature-section">
+      <h3 class="newsletter-heading">Subscribe to our newsletter</h3>
+      <p class="newsletter-description">
+        Receive updates about exclusive offers, events, new destinations and
+        more.
+      </p>
+      <button class="btn subscribe-btn">Subscribe</button>
+    </section>
+    <section id="register" class="registration-section feature-section">
+      <h1 class="section-heading">Register</h1>
+      <div class="registration-container">
+        <form class="registration-form" action="">
+          <div class="form-group">
+            <label for="form-first-name">First Name</label>
+            <input
+              class="form-input"
+              type="text"
+              name="first name"
+              id="form-first-name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="form-last-name">Last Name</label>
+            <input
+              class="form-input"
+              type="text"
+              name="last name"
+              id="form-last-name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="form-email">Email</label>
+            <input
+              class="form-input"
+              type="email"
+              name="email"
+              id="form-email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="form-contact-number">Contact Number</label>
+            <input
+              class="form-input"
+              type="tel"
+              name="first name"
+              id="form-contact-number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="form-address">Address</label>
+            <textarea
+              class="form-input"
+              name="address"
+              id="form-address"
+            ></textarea>
+          </div>
+          <div class="submit-container">
+            <input
+              class="btn submit-btn"
+              type="submit"
+              value="Submit Form"
+              id="form-submit"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
